@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+
+    .contact_link {
+        margin-top: 1;
+        color: #45495d;
+    }
+    .menu {
+        // width: 400px;
+        align-items: center;
+        text-align: center;
+
+        h2 {
+            margin-left: 25px;
+            color: #C60100;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            font-weight: 600;
+            // color: #45495d;
+
+            a {
+                text-decoration: none;
+                color: #45495d;
+            }
+        }
+    }
+
+    .contact h1 {
+        color: #C60100;
+    }
+}
+
+.content {
+    height: 80px;
+    background: #0045B2;
+}

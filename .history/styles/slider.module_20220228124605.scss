@@ -1,0 +1,26 @@
+.card_actions {
+  width: ;
+  display: flex;
+  justify-content: space-between;
+  // padding: 15px 15px;
+  
+  .cv {
+      display: flex;
+      justify-content: center;
+  }
+  #view {
+      margin-top: 4px;
+  }
+
+  .eyes {
+      margin-right: 10px;
+      margin-bottom: 0 auto;
+  }
+
+  .share {
+      // background-color: #C60100;
+      width: 25px;
+      height: 25px;
+  }
+
+}

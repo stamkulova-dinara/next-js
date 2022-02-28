@@ -1,0 +1,28 @@
+.content {
+    height: 80px;
+    background: #0045B2;
+    display: flex;
+    justify-content: space-between;
+
+
+    .logo {
+        padding-top: 20px;
+        padding-left: 30px;
+        // position: absolute;
+    }
+    
+    .kabarImage {
+        position: absolute;
+    }
+    
+    .mediaImage {
+        position: relative;
+        margin-left: 160px;
+    }
+
+    #contact {
+        padding-top: 20px;
+        padding-right: 30px;
+        color: white;
+    }
+}

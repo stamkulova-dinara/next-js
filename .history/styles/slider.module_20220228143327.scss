@@ -1,0 +1,64 @@
+.btn {
+  // font-size: 16px;
+  margin-left: 30px;
+  border: 1px solid #45495d;
+  border-radius: 25px;
+  padding: 15px 20px;
+  background: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #0045B2;
+  color: white;
+  border: 1px solid #0045B2;
+}
+
+#moreInfo {
+  height: 50px;
+  // margin-left: 30px;
+  border: 1px solid #45495d;
+  border-radius: 25px;
+  padding: 0 20px;
+  background: none;
+
+  a {
+    text-decoration: none;
+    // color: black;
+  }
+  
+}
+
+#moreInfo:hover{
+  cursor: pointer;
+  background-color: #0045B2;
+  color: white;
+  border: 1px solid #0045B2;
+}
+
+.card_actions {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  
+  .cv {
+      display: flex;
+      justify-content: center;
+  }
+  #view {
+      margin-top: 4px;
+  }
+
+  .eyes {
+      margin-right: 10px;
+      margin-bottom: 0 auto;
+  }
+
+  .share {
+      // background-color: #C60100;
+      width: 25px;
+      height: 25px;
+  }
+
+}
